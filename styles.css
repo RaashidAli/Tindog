@@ -1,0 +1,155 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Montserrat-bold', sans-serif;
+}
+
+/* heading */
+.big-heading{
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: bolder;
+}
+/*padding */
+.container-fluid {
+  padding: 7% 15%;
+}
+/* section */
+.colored-section{
+  background-color: #ff4c68;
+  color: #fff;
+
+}
+.white-section{
+  background-color: #fff;
+}
+
+/*   title   */
+
+#title .container-fluid{
+  padding: 3% 15% 7%;
+}
+
+.title-image{
+  width: 22%;
+  transform: rotate(25deg);
+  position: absolute;
+  right:25%;
+}
+
+.navbar-brand {
+  font-family: "ubuntu";
+  font-size: 2.5rem;
+  padding-bottom: 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "montserrat-light";
+  padding-bottom: 4.5rem;
+}
+
+.downbut {
+  margin: 5% 3% 5% 0;
+}
+
+
+/*  Features */
+
+#features {
+  font-size: 1rem;
+  font-family: 'Montserrat-bold', sans-serif;
+  background-color:#fff;
+  position:relative;
+}
+
+.fa-3x {
+  color: #ff4c68;
+}
+
+.fa-3x:hover {
+  color: #ef8172;
+}
+.feature-box{
+  padding:5%;
+  line-height: 2;
+}
+.features-text{
+  font-size: 1.5rem;
+}
+
+/*testimonial*/
+#testimonials{
+  background-color:#ef8172;
+}
+.testimonial-img{
+  width:10%;
+  border-radius:100%;
+  margin:20px;
+}
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bolder;
+}
+
+/* Press */
+#press{
+  background-color:#ef8172;
+}
+
+.press-logo{
+  width:15%;
+  margin:20px 20px 50px;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+
+/* Pricing */
+
+#pricing{
+  padding: 100px;
+  padding-bottom: 2%;
+}
+.pad{
+  margin-bottom: 5%;
+}
+.price-heading{
+font-size: 3rem;
+line-height: 1.5;
+font-weight: bolder;
+}
+.pricing-text{
+  font-size: 1.5rem;
+}
+
+/*  Footer   */
+
+.copy{
+  margin-right: 2%;
+}
+.right{
+  margin-top: 2%;
+}
+
+/* Responsive  */
+@media(max-width: 991px){
+  #title{
+    text-align:center;
+  }
+  .title-image{
+    position: static;
+    width: 50%;
+    transform: rotate(0);
+  }
+}
+
+/* the end */
